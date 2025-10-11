@@ -1,5 +1,5 @@
 
-div #content { 
+#content { 
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -57,7 +57,7 @@ text-decoration: underline;
     text-align: center;
 }
 
-.book {
+a .book {
     color: white ;
     background-color:#0e2019 ;
     text-decoration: none;
