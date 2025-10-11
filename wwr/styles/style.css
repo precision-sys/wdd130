@@ -57,12 +57,13 @@ text-decoration: underline;
     text-align: center;
 }
 
-a .book {
+.book {
     color: white ;
     background-color:#0e2019 ;
     text-decoration: none;
     text-align: center;
     margin: 0 auto;
+    display: inline-block
 }
 
 .msg {
