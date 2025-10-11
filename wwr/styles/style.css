@@ -107,6 +107,7 @@ h4 {
 
 footer p {
     font-size: 1.2em;
+    width: 60%;
 }
 
 footer p a :hover {
