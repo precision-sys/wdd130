@@ -50,10 +50,18 @@ text-decoration: underline;
 
 }
 
-.book, .join {
+.join {
     color:#151a18 ;
     background-color:#CE8B50 ;
     text-decoration: none;
+    text-align: center;
+}
+
+.book {
+    color:#151a18 ;
+    background-color:#CE8B50 ;
+    text-decoration: none;
+    text-align: center;
 }
 
 .msg {
