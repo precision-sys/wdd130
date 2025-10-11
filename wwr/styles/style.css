@@ -51,17 +51,18 @@ text-decoration: underline;
 }
 
 .join {
-    color:#151a18 ;
-    background-color:#465d54 ;
+    color: white ;
+    background-color:#0e2019 ;
     text-decoration: none;
     text-align: center;
 }
 
 .book {
-    color:#151a18 ;
-    background-color:#465d54 ;
+    color: white ;
+    background-color:#0e2019 ;
     text-decoration: none;
     text-align: center;
+    margin: 0 auto;
 }
 
 .msg {
