@@ -52,13 +52,14 @@ header {
 nav a:hover {
 background-color:#465d54; 
 color: #CE8B50;
-text-decoration: underline;
+text-decoration: none;
 
 }
 
 nav a {
    padding: 35px;
    color: #e2ddca;
+   text-decoration: none;
 }
 
 h2 {
