@@ -64,6 +64,7 @@ h2 {
     background-color:#0e2019 ;
     text-decoration: none;
     text-align: center;
+    font-size: 18px;
 }
 
 .book {
@@ -74,12 +75,18 @@ h2 {
   background-color: #0e2019;
   text-decoration: none;
   text-align: center;
+  font-size: 18px;
 }
 
 .msg {
     color: #151a18;
     font-family: "Arvo", "Helvetica", sans-serif;
 }
+
+.msg p {
+    font-size: .8eme;
+}
+
 #CE8B50
 footer {
 background-color:#465d54 ;
@@ -99,6 +106,7 @@ footer a:hover {
 .home-title {
     color:#1e332b;
     font-family: "Arvo", "Helvetica", sans-serif;
+    font-size: 2eme;
 }
 
 h4 {
