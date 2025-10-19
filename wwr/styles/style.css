@@ -81,6 +81,7 @@ h2 {
 .msg {
     color: #151a18;
     font-family: "Arvo", "Helvetica", sans-serif;
+    line-height: 1.5em;
 }
 
 .msg p {
