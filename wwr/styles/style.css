@@ -59,7 +59,6 @@ text-decoration: underline;
 
 nav a {
    padding: 35px;
-   text-decoration-color: antiquewhite;
 }
 
 h2 {
@@ -182,7 +181,7 @@ footer .social img {
 }
 
 .card-img {
-    border: 10px solid black;
+    border: 10px solid #465d54;
 }
 
 main section img {
