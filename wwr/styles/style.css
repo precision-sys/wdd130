@@ -9,7 +9,6 @@
 
 nav {
     text-align: center;
-    font: black;
     background-color:#465d54;
     text-decoration: none;
     margin: 0 auto;
@@ -101,7 +100,7 @@ h2 {
 }
 
 .msg p {
-    font-size: .8eme;
+    font-size: .8em;
     padding-bottom: 15px;
     
 }
@@ -133,7 +132,7 @@ footer {
 .home-title {
     color:#1e332b;
     font-family: "Arvo", "Helvetica", sans-serif;
-    font-size: 2eme;
+    font-size: 2em;
     margin-top: 10px;
 }
 
