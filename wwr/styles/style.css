@@ -47,6 +47,8 @@ body {
 header {
     background-color: #465d54;
     color: rgb(247, 242, 242);
+    display: grid;
+    grid-template-columns:150px auto;
 }
 
 nav a:hover {
