@@ -16,6 +16,13 @@ nav {
     justify-content: space-around;
 }
 
+#hero {
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+
+}
+
+
 #hero-box {
     margin: 0 auto;
     grid-column: 1/4;
@@ -24,14 +31,11 @@ nav {
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
-    grid-column: 2/3;
-    grid-row: 1/2;
 }
 
-#hero {
-display: grid;
-grid-template-columns: 1fr 3fr 1fr;
-
+#hero-msg{
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .botton-box {
