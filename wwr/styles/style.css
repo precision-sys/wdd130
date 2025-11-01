@@ -34,6 +34,7 @@ grid-template-columns: 1fr 3fr 1fr;
 }
 
 #hero-msg{
+    margin:0 auto;
     grid-column: 2/3;
     grid-row: 1/2;
 }
