@@ -137,6 +137,7 @@ h2 {
 footer a {
     background-color: #465d54;
     text-decoration: none;
+    color: #e2ddca;
 }
 
 footer a:hover {
@@ -191,7 +192,6 @@ footer p {
     display:block;
     margin: 0 auto;
     padding: 25px 50px;
-    color: #e2ddca;
     
 }
 
