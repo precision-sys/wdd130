@@ -244,8 +244,14 @@ footer .social img {
 .card-img {
     width: 100%;
     border: 10px solid #818885;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
+.card-img:hover {
+    transform: scale(1.1);
+    opacity: (0.6);
+}
 
 
 main section img {
