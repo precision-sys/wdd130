@@ -276,17 +276,17 @@ main section img {
 
 #bottomimage {
     width: 100%;
-    display:block;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    justify-self: center;
+    justify-items: center;
+    margin-top: 40px;
 }
 
 .bottom {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: auto;
 }
 
 #bot1 {
