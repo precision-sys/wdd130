@@ -278,7 +278,7 @@ main section img {
     width: 100%;
     display:grid;
     grid-template-columns: auto auto auto;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
     justify-items: center;
     margin-top: 40px;
