@@ -284,24 +284,24 @@ main section img {
     margin-top: 40px;
 }
 
-.bottom {
-   
+
+
+#bot1 {
+    grid-column: 1/2;
     width: 400px;
     height: 250px;
 }
 
-#bot1 {
-    grid-column: 1/2;
-    
-}
-
 #bot2 {
     grid-column: 2/3;
-
+    width: 400px;
+    height: 250px;
 }
 
 #bot3 {
     grid-column: 3/4;
+    width: 400px;
+    height: 250px;
 }
 
 
