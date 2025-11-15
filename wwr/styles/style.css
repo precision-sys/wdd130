@@ -279,14 +279,15 @@ main section img {
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
+    justify-content: center;
     justify-items: center;
     margin-top: 40px;
 }
 
 .bottom {
     display: block;
-    width: 150px;
-    height: auto;
+    width: 400px;
+    height: 250px;
 }
 
 #bot1 {
