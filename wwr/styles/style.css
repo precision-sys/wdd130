@@ -275,9 +275,15 @@ main section img {
 }
 
 #bottomimage{
+    display:block;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
+}
+
+.bottom{
+    width: 500px;
+    height: 300px;
 }
 
 
