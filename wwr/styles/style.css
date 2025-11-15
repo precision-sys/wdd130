@@ -274,7 +274,11 @@ main section img {
     margin-right: 40px;
 }
 
-
+#bottomimage{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
 
 
 
