@@ -254,6 +254,41 @@ main section img {
 }
 
 
+
+
+
+/* PAGE TWO STYLING STARTS HERE*/
+
+.nature {
+    float: right;
+    width: 500px;
+    height: 200px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
