@@ -275,6 +275,7 @@ main section img {
 }
 
 #bottomimage{
+    width: 100%;
     display:block;
     display:grid;
     grid-template-columns: repeat(3, 1fr);
