@@ -6,6 +6,55 @@
     <link rel="stylesheet" href="styles/saxstyle.css">
     <title>Saxophone</title>
 </head>
+
+
+
+
+<script>
+let slideIndex = 1;
+window.onload = function() {
+    showSlides(slideIndex);
+}
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+
+// Automatic slideshow
+setInterval(function() {
+    plusSlides(1);
+}, 5000);
+</script>
+
+
+
+
 <body>
     <div id="content">
         <header>
@@ -20,18 +69,81 @@
                 <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
-        <div id="hero">
-            <div id="hero-box">
-                <img id="saxheroimg" src="images/hero.jpg" alt="playing saxophone">
-            </div>
 
-            <section id="hero-msg">
-                <h1 class="hero-title">Saxophones</h1>
-                <h4> Welcome to the world of the saxophone, an instrument whose golden tone has captivated hearts for generations</h4>
-            </section>
+
+
+        <div id="hero">
+    <div class="slideshow-container">
+
+        <!-- Slide 1 -->
+        <div class="mySlides fade">
+            <img src="images/hero1.jpg" class="slide-img" alt="Saxophone hero 1">
+            <div class="hero-caption">
+                <h1>Saxophones</h1>
+                <p>Welcome to the golden world of saxophone music.</p>
+            </div>
         </div>
 
+        <!-- Slide 2 -->
+        <div class="mySlides fade">
+            <img src="images/hero2.jpg" class="slide-img" alt="Saxophone hero 2">
+            <div class="hero-caption">
+                <h1>Feel the Music</h1>
+                <p>Experience jazz, classical, and modern tones.</p>
+            </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="mySlides fade">
+            <img src="images/hero3.jpg" class="slide-img" alt="Saxophone hero 3">
+            <div class="hero-caption">
+                <h1>Play with Passion</h1>
+                <p>Let the saxophone inspire your musical journey.</p>
+            </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="mySlides fade">
+            <img src="images/hero4.jpg" class="slide-img" alt="Saxophone hero 4">
+            <div class="hero-caption">
+                <h1>Your Sax. Your Stage.</h1>
+                <p>Contemplate the majesty of this instrument.</p>
+            </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="mySlides fade">
+            <img src="images/hero5.jpg" class="slide-img" alt="Saxophone hero 5">
+            <div class="hero-caption">
+                <h1>Master the Saxophone</h1>
+                <p>Where Notes Become Emotion.</p>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+
+    <!-- Dots -->
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+</div>
+
+
+        
+        
         <main class="home-illustration">
+
+
+
+
             <section class="sax-card">
                 <img class="illustration-img" src="images/youngadult.jpg" alt="Young adult playin sax">
             </section>
@@ -73,5 +185,9 @@
         
         </footer>
     </div>    
+
+
+
+
 </body>
 </html>
