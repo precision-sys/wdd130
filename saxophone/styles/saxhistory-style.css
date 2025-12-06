@@ -1,0 +1,126 @@
+/*Sax History Page Styles*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #444;
+    padding: 10px 30px;
+}
+
+.logo {
+    width: 60px;
+}
+
+/* NAVIGATION */
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
+
+nav a:hover {
+    background-color: #666;
+    border-radius: 5px;
+}
+
+
+/* PAGE TITLE */
+h1 {
+    text-align: center;
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+/* MAIN CONTENT BLOCKS */
+.maincontent div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.maincontent p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.maincontent img {
+    width: 100%;
+    height: auto;
+    background-color: #d9d9d9;   /* Placeholder grey */
+    border-radius: 4px;
+}
+
+/* LAST ROW OF SMALL IMAGES (IF ANY) */
+.small-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 40px 40px;
+}
+
+.small-images img {
+    width: 100%;
+    height: 120px;
+    background: #d9d9d9;
+}
+
+/* FOOTER */
+footer {
+    background-color: #444;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    align-items: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+.social {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.social img {
+    width: 30px;
+}
+
+footer div {
+    grid-column : 3/4;
+}
+
+.illustration-img {
+    width: 100%;
+    height: auto;
+    background-color: #d9d9d9;
+    float: right;
+}
