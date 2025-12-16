@@ -171,7 +171,18 @@ footer div {
 
 
 
+@media (max-width: 800px) {
+    .details {
+        display: block;
+    }
 
+    .illustration-right, .illustration-left {
+        width: 100%;
+        height: auto;
+        justify-self: center;
+        margin-top: 15px;
+    }
+}
 
 
 

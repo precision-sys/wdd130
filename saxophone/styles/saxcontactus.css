@@ -155,3 +155,13 @@ footer a:hover {
         margin: 10px;
     }
 }
+
+@media (max-width: 500px) {
+    body {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
